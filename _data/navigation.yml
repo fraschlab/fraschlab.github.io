@@ -35,6 +35,10 @@ main:
         url: /research/in-silico/
       - title: Preprints
         url: /research/preprints/
+      - title: ResearchTwin
+        url: /research/researchtwin/
+      - title: minaction.net
+        url: /research/minaction/
   - title: News
     url: /news/
     children:
