@@ -1,0 +1,39 @@
+title: Frasch Lab
+description: Perinatal Neuroscience & Biosensor Research
+url: "https://fraschlab.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Theme
+remote_theme: null
+
+# Collections
+collections:
+  news:
+    output: true
+    permalink: /news/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+
+# Google Analytics
+google_analytics: UA-158958853-1
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

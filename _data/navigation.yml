@@ -1,0 +1,50 @@
+main:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+    children:
+      - title: Past Trainees
+        url: /about/trainees/
+      - title: Contact
+        url: /about/ask/
+  - title: Research
+    url: /research/
+    children:
+      - title: "Brain: Stress"
+        url: /research/brain/stress/
+      - title: "Brain: Neuroinflammation"
+        url: /research/brain/neuroinflammation/
+      - title: "Brain: Ischemia"
+        url: /research/brain/ischemia/
+      - title: "Biosensors: ECG"
+        url: /research/biosensors/ecg/
+      - title: "Biosensors: EEG"
+        url: /research/biosensors/eeg/
+      - title: Early Life ROI
+        url: /research/early-life-roi/
+      - title: Impact
+        url: /research/impact/
+      - title: Brain Health
+        url: /research/brain-health/
+      - title: S Index
+        url: /research/s-index/
+      - title: Data Sets
+        url: /research/data-sets/
+      - title: In Silico
+        url: /research/in-silico/
+      - title: Preprints
+        url: /research/preprints/
+  - title: News
+    url: /news/
+    children:
+      - title: Past News
+        url: /news/past/
+  - title: Funding
+    url: /funding/
+  - title: Networks
+    url: /networks/
+  - title: Links
+    url: /links/
+  - title: Blog
+    url: /blog/

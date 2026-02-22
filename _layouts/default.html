@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  {% include nav.html %}
+
+  {% if page.hero %}
+  <section class="hero">
+    <h1>{{ page.hero_title | default: page.title }}</h1>
+    <p>{{ page.hero_subtitle }}</p>
+  </section>
+  {% endif %}
+
+  <main class="page-wrapper">
+    {% unless page.hero %}
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% endunless %}
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+
+  <script>
+    // Mobile dropdown toggle
+    document.querySelectorAll('.nav-item').forEach(item => {
+      item.addEventListener('click', function(e) {
+        if (window.innerWidth <= 768 && this.querySelector('.nav-dropdown')) {
+          e.preventDefault();
+          this.classList.toggle('open');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
