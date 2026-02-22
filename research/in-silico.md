@@ -21,4 +21,4 @@ In partnership with applied mathematicians from York University, we constructed 
 
 ## Call for Collaboration
 
-We invite data science, computer science, and engineering professionals to help convert the current MATLAB implementation into a web-based application accessible to the broader research community. [Get in touch.](/about/ask/)
+We invite data science, computer science, and engineering professionals to help convert the current MATLAB implementation into a web-based application accessible to the broader research community. [Get in touch.]({{ '/about/ask/' | relative_url }})

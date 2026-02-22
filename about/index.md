@@ -39,4 +39,4 @@ The lab works with researchers across multiple institutions:
 - **Drs. Andr&eacute; Desrochers, Gilles Fecteau, Patrick Burns** &mdash; Veterinary collaborators
 - **Dr. Hermona Soreq** &mdash; Neuroscience
 
-[Past Trainees &rarr;](/about/trainees/)
+[Past Trainees &rarr;]({{ '/about/trainees/' | relative_url }})

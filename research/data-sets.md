@@ -14,4 +14,4 @@ Our open data sets support research in:
 - Perinatal biosignal processing
 - Computational physiology models
 
-Check our [GitHub repositories](https://github.com/martinfrasch) for available code and data sets, and our [preprints page](/research/preprints/) for associated publications.
+Check our [GitHub repositories](https://github.com/martinfrasch) for available code and data sets, and our [preprints page]({{ '/research/preprints/' | relative_url }}) for associated publications.

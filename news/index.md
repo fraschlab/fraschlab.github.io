@@ -38,4 +38,4 @@ title: "News"
 
 ---
 
-[Past News &rarr;](/news/past/)
+[Past News &rarr;]({{ '/news/past/' | relative_url }})

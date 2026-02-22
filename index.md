@@ -9,32 +9,32 @@ hero_subtitle: Converting the medical data deluge into representations of physio
 <div class="card-grid">
 
 <div class="card">
-<h3><a href="/research/brain/stress/">Prenatal Stress</a></h3>
+<h3><a href="{{ '/research/brain/stress/' | relative_url }}">Prenatal Stress</a></h3>
 <p>How chronic maternal stress during pregnancy affects fetal and neonatal neurodevelopment, and early detection strategies.</p>
 </div>
 
 <div class="card">
-<h3><a href="/research/brain/neuroinflammation/">Neuroinflammation</a></h3>
+<h3><a href="{{ '/research/brain/neuroinflammation/' | relative_url }}">Neuroinflammation</a></h3>
 <p>Fetal brain inflammation mechanisms, the cholinergic anti-inflammatory pathway, and microglial responses.</p>
 </div>
 
 <div class="card">
-<h3><a href="/research/brain/ischemia/">Brain Ischemia</a></h3>
+<h3><a href="{{ '/research/brain/ischemia/' | relative_url }}">Brain Ischemia</a></h3>
 <p>Early and reliable detection of fetal brain injury using heart rate variability as a non-invasive biomarker.</p>
 </div>
 
 <div class="card">
-<h3><a href="/research/biosensors/ecg/">ECG Biosensors</a></h3>
+<h3><a href="{{ '/research/biosensors/ecg/' | relative_url }}">ECG Biosensors</a></h3>
 <p>Non-invasive fetal ECG monitoring to identify fetuses developing acidemia using HRV analysis.</p>
 </div>
 
 <div class="card">
-<h3><a href="/research/biosensors/eeg/">EEG Monitoring</a></h3>
+<h3><a href="{{ '/research/biosensors/eeg/' | relative_url }}">EEG Monitoring</a></h3>
 <p>Fetal EEG during labor to predict severe acidemia and prevent brain injury through early intervention.</p>
 </div>
 
 <div class="card">
-<h3><a href="/research/in-silico/">In Silico Models</a></h3>
+<h3><a href="{{ '/research/in-silico/' | relative_url }}">In Silico Models</a></h3>
 <p>Computational simulation of labor physiology and fetal cardiovascular responses.</p>
 </div>
 
@@ -46,4 +46,4 @@ The Frasch Lab studies the brain's responses to asphyxia, inflammation/infection
 
 Our work emphasizes non-invasive monitoring technologies (ECG, EEG) to identify at-risk babies, and preclinical research examining how prenatal harmful events shape brain development&mdash;particularly regarding glial biology, microglia, and astrocytes relevant to neuroinflammatory and neurodegenerative diseases.
 
-[Learn more about us &rarr;](/about/)
+[Learn more about us &rarr;]({{ '/about/' | relative_url }})
