@@ -1,7 +1,7 @@
 title: Frasch Lab
 description: Perinatal Neuroscience & Biosensor Research
-url: "https://martinfrasch.github.io"
-baseurl: "/fraschlab.github.io"
+url: "https://fraschlab.github.io"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
