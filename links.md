@@ -111,6 +111,7 @@ title: "Links"
 - [Deep Learning Textbook](http://www.deeplearningbook.org/) &mdash; Goodfellow, Bengio & Courville
 - [Interpretable ML Book](https://christophm.github.io/interpretable-ml-book/)
 - [Deep Learning in Medicine Review](https://royalsocietypublishing.org/doi/10.1098/rsif.2017.0387)
+- [Google Scholar Labs](https://scholar.google.ca/scholar_labs/search?hl=en) &mdash; Experimental search features from Google Scholar
 
 ---
 
