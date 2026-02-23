@@ -11,9 +11,20 @@ The health of mothers, fathers, and infants sets the stage for a lifetime of wel
 
 ## By the Numbers
 
-- **$13** returned for every **$1** invested in comprehensive early childhood development programs
-- **$10.9** societal return for every **$1** spent on routine childhood immunizations
-- **$2.7 trillion** in net societal savings from immunizing U.S. children born between 1994 and 2023
+<div class="stat-grid">
+<div class="stat-card">
+<div class="stat-number">$13 : $1</div>
+<div class="stat-label">returned for every dollar invested in comprehensive early childhood development programs</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">$10.9 : $1</div>
+<div class="stat-label">societal return for every dollar spent on routine childhood immunizations</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">$2.7T</div>
+<div class="stat-label">net societal savings from immunizing U.S. children born 1994&ndash;2023</div>
+</div>
+</div>
 
 ## The Why: The Economic Imperative of Early Intervention
 

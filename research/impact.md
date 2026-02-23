@@ -9,9 +9,20 @@ Neglecting maternal health -- physical, mental, and social -- programs a lifetim
 
 ## A Common, Costly, and Preventable Crisis
 
-- **1 in 3** birthing people experience a significant mental or physical health complication during the perinatal period
-- **$46.5+ billion**: the underestimated annual cost in the U.S. from just two sets of conditions
-- **80%** of pregnancy-related deaths in the U.S. are estimated to be preventable
+<div class="stat-grid">
+<div class="stat-card">
+<div class="stat-number">1 in 3</div>
+<div class="stat-label">birthing people experience a significant complication during the perinatal period</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">$46.5B+</div>
+<div class="stat-label">underestimated annual cost in the U.S. from just two sets of conditions</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">80%</div>
+<div class="stat-label">of pregnancy-related deaths in the U.S. are estimated to be preventable</div>
+</div>
+</div>
 
 These are not rare events. They are systemic failures with enormous human and economic costs, and the vast majority of them are avoidable with the right investments.
 
@@ -38,9 +49,14 @@ Of the $32.3 billion cost of maternal morbidity, the largest share falls on the 
 
 Systemic racism drives higher rates of chronic stress and dangerous complications like preeclampsia, leading to preventable deaths of Black and Indigenous mothers and infants at alarming rates.
 
-- The maternal mortality rate is **2.6x higher** for Black women compared to white women
-- Indigenous communities face similarly disproportionate burdens
-- These disparities persist even after controlling for income, education, and access to care, pointing to the biological toll of structural inequality itself
+<div class="stat-grid">
+<div class="stat-card">
+<div class="stat-number">2.6&times;</div>
+<div class="stat-label">higher maternal mortality rate for Black women compared to white women</div>
+</div>
+</div>
+
+Indigenous communities face similarly disproportionate burdens. These disparities persist even after controlling for income, education, and access to care, pointing to the biological toll of structural inequality itself.
 
 Addressing perinatal health inequity is not only a moral imperative but an economic one. The communities bearing the greatest burden represent an enormous pool of unrealized human potential.
 
@@ -48,8 +64,16 @@ Addressing perinatal health inequity is not only a moral imperative but an econo
 
 Investing in comprehensive, integrated care for parents before, during, and after pregnancy is a high-return economic strategy that builds a healthier and more prosperous future.
 
-- **Annual ROI**: 13% for high-quality early childhood programs
-- **Return to society**: $6 -- $17 for every $1 invested in early childhood
+<div class="stat-grid">
+<div class="stat-card">
+<div class="stat-number">13%</div>
+<div class="stat-label">annual ROI for high-quality early childhood programs</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">$6&ndash;$17 : $1</div>
+<div class="stat-label">return to society for every dollar invested in early childhood</div>
+</div>
+</div>
 
 The evidence is clear: prevention is not just cheaper than treatment, it is vastly more effective. Every dollar spent on upstream investment in parental health averts many more dollars in downstream costs for both parent and child.
 
