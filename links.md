@@ -17,8 +17,6 @@ title: "Links"
 
 ## Research Databases & Atlases
 
-<div class="link-section">
-
 ### Biological Atlases
 
 - [Allen Cell Tools](https://www.allencell.org/data--tools.html)
@@ -41,13 +39,9 @@ title: "Links"
 - [U.S. Healthcare Data](https://data.healthcare.gov/)
 - [Child Mortality Data](https://childmortality.org/data)
 
-</div>
-
 ---
 
 ## Biomedical Research Tools
-
-<div class="link-section">
 
 ### Lab & Imaging Tools
 
@@ -75,13 +69,9 @@ title: "Links"
 - [Bayesian Calculator](http://psych.fullerton.edu/mbirnbaum/bayes/BayesCalc.htm)
 - [NIH Paylines](https://www.einstein.yu.edu/administration/grant-support/nih-paylines.aspx)
 
-</div>
-
 ---
 
 ## Computational Tools
-
-<div class="link-section">
 
 ### Data Visualization
 
@@ -121,8 +111,6 @@ title: "Links"
 - [Deep Learning Textbook](http://www.deeplearningbook.org/) &mdash; Goodfellow, Bengio & Courville
 - [Interpretable ML Book](https://christophm.github.io/interpretable-ml-book/)
 - [Deep Learning in Medicine Review](https://royalsocietypublishing.org/doi/10.1098/rsif.2017.0387)
-
-</div>
 
 ---
 
