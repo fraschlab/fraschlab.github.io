@@ -15,7 +15,7 @@ Interested in our research? Want to collaborate or join the lab?
 
 Please reach out to Dr. Martin G. Frasch:
 
-- **Email:** [mgfrasch@gmail.com](mailto:mgfrasch@gmail.com)
+- **Email:** [mfrasch@uw.edu](mailto:mfrasch@uw.edu)
 - **GitHub:** [github.com/martinfrasch](https://github.com/martinfrasch)
 - **LinkedIn:** [linkedin.com/in/mfrasch](https://www.linkedin.com/in/mfrasch/)
 - **ResearchGate:** [researchgate.net/profile/Martin_Frasch](https://www.researchgate.net/profile/Martin_Frasch)
