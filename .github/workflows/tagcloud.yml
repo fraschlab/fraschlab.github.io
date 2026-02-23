@@ -1,0 +1,103 @@
+name: Update Tag Cloud
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'  # First day of every month at 6am UTC
+  workflow_dispatch:       # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-tagcloud:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch keywords from PubMed and generate tag cloud data
+        run: |
+          python3 << 'SCRIPT'
+          import urllib.request
+          import json
+          import re
+          from collections import Counter
+          from datetime import datetime
+
+          # Search PubMed for Frasch MG publications
+          query = "Frasch+MG[Author]"
+          search_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term={query}&retmax=200&retmode=json"
+
+          with urllib.request.urlopen(search_url) as resp:
+              search_data = json.loads(resp.read())
+
+          ids = search_data.get("esearchresult", {}).get("idlist", [])
+          if not ids:
+              print("No PubMed IDs found, keeping existing data")
+              exit(0)
+
+          # Fetch titles and abstracts
+          id_str = ",".join(ids)
+          fetch_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id={id_str}&rettype=abstract&retmode=text"
+
+          with urllib.request.urlopen(fetch_url) as resp:
+              text = resp.read().decode("utf-8", errors="replace")
+
+          # Extract words and count frequencies
+          stopwords = set([
+              "the","and","for","with","from","that","this","was","were","are",
+              "been","being","have","has","had","will","would","could","should",
+              "may","can","its","our","their","these","those","which","where",
+              "when","what","how","than","into","also","but","not","all","both",
+              "each","more","most","other","some","such","only","very","just",
+              "about","between","through","during","before","after","above",
+              "below","under","over","using","used","based","among","within",
+              "among","per","via","two","three","new","non","one","first",
+              "however","well","associated","related","compared","showed",
+              "found","results","conclusion","conclusions","methods","method",
+              "background","objective","objectives","purpose","aim","aims",
+              "introduction","discussion","study","studies","patients","group",
+              "groups","significant","significantly","respectively","total",
+              "included","including","observed","demonstrated","performed",
+              "assessed","evaluated","measured","determined","identified",
+              "reported","described","presented","investigated","examined",
+              "obtained","provided","showed","showed","suggested","indicated",
+              "revealed","higher","lower","increased","decreased","reduced",
+          ])
+
+          words = re.findall(r'[a-z]{3,}', text.lower())
+          words = [w for w in words if w not in stopwords and len(w) > 2]
+          freq = Counter(words)
+
+          # Take top 80 words
+          top = freq.most_common(80)
+          if not top:
+              print("No words extracted, keeping existing data")
+              exit(0)
+
+          max_count = top[0][1]
+
+          # Generate YAML
+          today = datetime.now().strftime("%Y-%m-%d")
+          lines = [
+              "# Research keyword frequencies - extracted from PubMed publication titles and abstracts",
+              "# Auto-updated monthly via GitHub Actions",
+              f"# Last updated: {today}",
+              "",
+          ]
+          for word, count in top:
+              weight = max(20, int(95 * count / max_count))
+              lines.append(f"- word: {word}")
+              lines.append(f"  weight: {weight}")
+
+          with open("_data/tagcloud.yml", "w") as f:
+              f.write("\n".join(lines) + "\n")
+
+          print(f"Updated tag cloud with {len(top)} keywords from {len(ids)} publications")
+          SCRIPT
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/tagcloud.yml
+          git diff --cached --quiet || (git commit -m "Update tag cloud keywords from PubMed [automated]" && git push)

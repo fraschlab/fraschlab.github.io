@@ -29,7 +29,7 @@ main:
         url: /research/brain-health/
       - title: S Index
         url: /research/s-index/
-      - title: Data Sets
+      - title: "Data Sets & Protocols"
         url: /research/data-sets/
       - title: In Silico
         url: /research/in-silico/
@@ -39,6 +39,8 @@ main:
         url: /research/researchtwin/
       - title: minaction.net
         url: /research/minaction/
+      - title: Tag Cloud
+        url: /research/tag-cloud/
   - title: News
     url: /news/
     children:
