@@ -42,6 +42,17 @@ The Frasch Lab investigates maternal-fetal physiology and neuroscience across se
 
 </div>
 
+## minAction.net
+
+<div class="card-grid">
+
+<div class="card">
+<h3><a href="{{ '/research/minaction/' | relative_url }}">minAction.net</a></h3>
+<p>A search for vertically organizing principles in physiology — moving from studying causality within specific scales to finding principles that are invariant across all scales, inspired by the Principle of Least Action in physics.</p>
+</div>
+
+</div>
+
 ## Additional Research
 
 <div class="card-grid">
@@ -79,17 +90,6 @@ The Frasch Lab investigates maternal-fetal physiology and neuroscience across se
 <div class="card">
 <h3><a href="{{ '/research/researchtwin/' | relative_url }}">ResearchTwin</a></h3>
 <p>Transforms publications, code, and datasets into a live knowledge graph with the S-Index — an open metric for research quality and impact.</p>
-</div>
-
-</div>
-
-## minAction.net
-
-<div class="card-grid">
-
-<div class="card">
-<h3><a href="{{ '/research/minaction/' | relative_url }}">minAction.net</a></h3>
-<p>A search for vertically organizing principles in physiology — moving from studying causality within specific scales to finding principles that are invariant across all scales, inspired by the Principle of Least Action in physics.</p>
 </div>
 
 </div>
