@@ -49,6 +49,6 @@ title: "Blog"
 </div>
 
 <div class="news-item">
-<h3>Why Open Code Matters</h3>
+<h3><a href="https://speakingofmedicine.plos.org/2025/11/14/why-open-code-matters-and-why-its-hard/">Why Open Code Matters</a></h3>
 <p>Published on the PLoS Digital Health platform discussing the importance and challenges of transparent computational practices in biomedical research.</p>
 </div>
