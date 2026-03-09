@@ -4,6 +4,13 @@ title: "News"
 ---
 
 <div class="news-item">
+<h3>The "Worst Test in Medicine" Has a 21st-Century Solution 🚀</h3>
+<span class="news-date">March 2026</span>
+<p>Electronic Fetal Monitoring (EFM) has been called the most unreliable test in clinical practice. It drives thousands of unnecessary C-sections every year because it lacks context. But what if we looked at fetal compensation instead of just a flickering line on a screen?</p>
+<p>A new <a href="https://kevinmd.com/2026/03/artificial-intelligence-and-the-future-of-fetal-heart-rate-monitoring.html">article on KevinMD</a> discusses the future of labor safety&mdash;moving beyond the "Category II" stalemate by leveraging high-precision AI, the Fetal Reserve Index (FRI), and multi-variant physiological data (BMI, age, uterine activity). We can reduce surgical interventions without compromising safety. It's time for a data-driven evolution in the delivery room.</p>
+</div>
+
+<div class="news-item">
 <h3>SPaM is Back in Oxford</h3>
 <p><a href="https://www.wrh.ox.ac.uk/research/spam-in-labour-workshop">SPaM is back in Oxford</a>, June 25&ndash;27. 6th meeting! The sixth iteration of the workshop on Stress and Pregnancy (formerly in Manchester), held at Oxford University.</p>
 </div>
