@@ -1,6 +1,6 @@
 # Research keyword frequencies - extracted from PubMed publication titles and abstracts
 # Auto-updated monthly via GitHub Actions
-# Last updated: 2026-06-01
+# Last updated: 2026-07-01
 
 - word: fetal
   weight: 95
@@ -146,6 +146,8 @@
   weight: 20
 - word: united
   weight: 20
+- word: epub
+  weight: 20
 - word: western
   weight: 20
 - word: ovine
@@ -159,6 +161,4 @@
 - word: measures
   weight: 20
 - word: pregnancy
-  weight: 20
-- word: chronically
   weight: 20
