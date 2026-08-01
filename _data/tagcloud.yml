@@ -1,6 +1,6 @@
 # Research keyword frequencies - extracted from PubMed publication titles and abstracts
 # Auto-updated monthly via GitHub Actions
-# Last updated: 2026-07-01
+# Last updated: 2026-08-01
 
 - word: fetal
   weight: 95
