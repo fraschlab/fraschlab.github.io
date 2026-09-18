@@ -4,6 +4,12 @@ title: "Blog"
 ---
 
 <div class="news-item">
+<h3><a href="https://www.youtube.com/watch?v=ARYxL2EVb5M">Talk at the 6th SPaM Workshop</a> (June 2026)</h3>
+<p>On 25 June 2026, Martin Frasch spoke at the 6th Signal Processing and Monitoring in Labour (SPaM) workshop, which brings together clinicians, engineers, and data scientists working on intrapartum fetal monitoring. The recording is available on YouTube. <a href="https://www.youtube.com/watch?v=ARYxL2EVb5M">Watch the talk &rarr;</a></p>
+<iframe style="width:100%;max-width:640px;aspect-ratio:16/9;border:0" src="https://www.youtube-nocookie.com/embed/ARYxL2EVb5M" title="Martin Frasch at the 6th SPaM workshop" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="news-item">
 <h3><a href="https://kevinmd.com/2026/03/artificial-intelligence-and-the-future-of-fetal-heart-rate-monitoring.html">AI &amp; the Future of Fetal Heart Rate Monitoring</a> (March 2026)</h3>
 <p>Writing in <em>KevinMD</em>, Drs. Martin G. Frasch, Mark I. Evans, and Philip J. Steer argue that conventional electronic fetal monitoring has driven unnecessary cesarean sections without reducing cerebral palsy. They make the case for AI-powered analysis of fetal heart rate variability and a Fetal Reserve Index to enable earlier, data-driven intervention. <a href="https://kevinmd.com/2026/03/artificial-intelligence-and-the-future-of-fetal-heart-rate-monitoring.html">Read the full piece &rarr;</a></p>
 </div>
