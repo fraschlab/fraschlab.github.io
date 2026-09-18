@@ -5,7 +5,7 @@ title: "Blog"
 
 <div class="news-item">
 <h3><a href="https://www.youtube.com/watch?v=ARYxL2EVb5M">Aiming the Amplifier: Talk at the 6th SPaM Workshop</a> (June 2026)</h3>
-<p>On 25 June 2026, Martin Frasch spoke at the 6th Signal Processing and Monitoring in Labour (SPaM) workshop, which brings together clinicians, engineers, and data scientists working on intrapartum fetal monitoring. In the talk, <em>&ldquo;Aiming the Amplifier. Pregnancy health monitoring: where are we headed?&rdquo;</em>, he discusses the potential of agentic AI as a force amplifier in pregnancy health monitoring, along with its promise and pitfalls. <a href="https://www.youtube.com/watch?v=ARYxL2EVb5M">Watch the talk &rarr;</a></p>
+<p>On 25 June 2026, Martin Frasch spoke at the 6th Signal Processing and Monitoring in Labour (SPaM) workshop, which brings together clinicians, engineers, and data scientists working on intrapartum fetal monitoring. The talk, <em>&ldquo;Aiming the Amplifier. Pregnancy health monitoring: where are we headed?&rdquo;</em>, explores the potential of agentic AI as a force amplifier in pregnancy health monitoring, along with its promise and pitfalls. <a href="https://www.youtube.com/watch?v=ARYxL2EVb5M">Watch the talk &rarr;</a></p>
 <iframe style="width:100%;max-width:640px;aspect-ratio:16/9;border:0" src="https://www.youtube-nocookie.com/embed/ARYxL2EVb5M" title="Aiming the Amplifier: Martin Frasch at the 6th SPaM workshop" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
 </div>
 
