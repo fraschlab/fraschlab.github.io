@@ -1,11 +1,11 @@
 # Research keyword frequencies - extracted from PubMed publication titles and abstracts
 # Auto-updated monthly via GitHub Actions
-# Last updated: 2026-10-01
+# Last updated: 2026-11-01
 
 - word: fetal
   weight: 95
 - word: university
-  weight: 78
+  weight: 79
 - word: department
   weight: 77
 - word: doi
@@ -13,7 +13,7 @@
 - word: canada
   weight: 45
 - word: obstetrics
-  weight: 41
+  weight: 42
 - word: research
   weight: 38
 - word: information
@@ -21,32 +21,32 @@
 - word: frasch
   weight: 32
 - word: gynecology
-  weight: 31
+  weight: 32
 - word: rate
   weight: 31
 - word: author
-  weight: 30
+  weight: 31
 - word: montr
   weight: 29
+- word: pmid
+  weight: 28
 - word: heart
   weight: 28
-- word: pmid
-  weight: 27
-- word: medicine
+- word: health
+  weight: 25
+- word: usa
   weight: 25
 - word: washington
-  weight: 24
-- word: time
-  weight: 23
+  weight: 25
+- word: medicine
+  weight: 25
 - word: seattle
-  weight: 23
+  weight: 24
 - word: development
-  weight: 23
-- word: health
   weight: 23
 - word: brain
   weight: 23
-- word: usa
+- word: time
   weight: 23
 - word: human
   weight: 22
@@ -54,17 +54,17 @@
   weight: 22
 - word: universit
   weight: 21
+- word: institute
+  weight: 21
+- word: model
+  weight: 21
 - word: centre
   weight: 21
-- word: institute
-  weight: 20
 - word: center
   weight: 20
 - word: variability
   weight: 20
 - word: monitoring
-  weight: 20
-- word: model
   weight: 20
 - word: indexed
   weight: 20
@@ -72,9 +72,9 @@
   weight: 20
 - word: sheep
   weight: 20
-- word: maternal
-  weight: 20
 - word: data
+  weight: 20
+- word: maternal
   weight: 20
 - word: clinical
   weight: 20
@@ -82,21 +82,21 @@
   weight: 20
 - word: justine
   weight: 20
-- word: term
-  weight: 20
 - word: pmcid
   weight: 20
 - word: pmc
+  weight: 20
+- word: term
   weight: 20
 - word: chu
   weight: 20
 - word: fhrv
   weight: 20
+- word: interest
+  weight: 20
 - word: fetuses
   weight: 20
 - word: montreal
-  weight: 20
-- word: interest
   weight: 20
 - word: ecg
   weight: 20
@@ -120,9 +120,9 @@
   weight: 20
 - word: ontario
   weight: 20
-- word: munich
-  weight: 20
 - word: conflict
+  weight: 20
+- word: munich
   weight: 20
 - word: near
   weight: 20
@@ -146,6 +146,8 @@
   weight: 20
 - word: united
   weight: 20
+- word: pregnancy
+  weight: 20
 - word: epub
   weight: 20
 - word: western
@@ -156,9 +158,7 @@
   weight: 20
 - word: uco
   weight: 20
+- word: disability
+  weight: 20
 - word: signal
-  weight: 20
-- word: measures
-  weight: 20
-- word: pregnancy
   weight: 20
