@@ -93,6 +93,11 @@ The Frasch Lab investigates maternal-fetal physiology and neuroscience across se
 </div>
 
 <div class="card">
+<h3><a href="{{ '/research/postpartum-readmission-economics/' | relative_url }}">When Does the Model Pay?</a></h3>
+<p>Interactive explorer of when a postpartum readmission risk model pays for itself, nationally and state by state at Medicaid prices.</p>
+</div>
+
+<div class="card">
 <h3><a href="{{ '/research/researchtwin/' | relative_url }}">ResearchTwin</a></h3>
 <p>Transforms publications, code, and datasets into a live knowledge graph with the S-Index — an open metric for research quality and impact.</p>
 </div>
