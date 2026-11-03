@@ -11,38 +11,50 @@ main:
   - title: Research
     url: /research/
     children:
-      - title: "Brain: Stress"
-        url: /research/brain/stress/
-      - title: "Brain: Neuroinflammation"
-        url: /research/brain/neuroinflammation/
-      - title: "Brain: Ischemia"
-        url: /research/brain/ischemia/
-      - title: "Biosensors: ECG"
-        url: /research/biosensors/ecg/
-      - title: "Biosensors: EEG"
-        url: /research/biosensors/eeg/
-      - title: "Biosensors: Nerve Stimulation"
-        url: /research/biosensors/nerve-stimulation/
-      - title: Early Life ROI
-        url: /research/early-life-roi/
-      - title: Impact
-        url: /research/impact/
-      - title: Brain Health
-        url: /research/brain-health/
-      - title: S Index
-        url: /research/s-index/
-      - title: "Data Sets & Protocols"
-        url: /research/data-sets/
-      - title: In Silico
-        url: /research/in-silico/
-      - title: Preprints
-        url: /research/preprints/
-      - title: ResearchTwin
-        url: /research/researchtwin/
-      - title: minaction.net
-        url: /research/minaction/
-      - title: Tag Cloud
-        url: /research/tag-cloud/
+      - group: Brain Research
+        items:
+          - title: Prenatal Stress
+            url: /research/brain/stress/
+          - title: Neuroinflammation
+            url: /research/brain/neuroinflammation/
+          - title: Brain Ischemia
+            url: /research/brain/ischemia/
+      - group: Biosensors
+        items:
+          - title: ECG
+            url: /research/biosensors/ecg/
+          - title: EEG
+            url: /research/biosensors/eeg/
+          - title: Nerve Stimulation
+            url: /research/biosensors/nerve-stimulation/
+      - group: minAction.net
+        items:
+          - title: minAction.net
+            url: /research/minaction/
+      - group: Additional Research
+        items:
+          - title: Early Life ROI
+            url: /research/early-life-roi/
+          - title: Brain Health
+            url: /research/brain-health/
+          - title: S Index
+            url: /research/s-index/
+          - title: In Silico
+            url: /research/in-silico/
+          - title: "Data Sets & Protocols"
+            url: /research/data-sets/
+          - title: Preprints
+            url: /research/preprints/
+          - title: ResearchTwin
+            url: /research/researchtwin/
+          - title: When Does the Model Pay?
+            url: /research/postpartum-readmission-economics/
+      - group: Overview
+        items:
+          - title: Impact
+            url: /research/impact/
+          - title: Tag Cloud
+            url: /research/tag-cloud/
   - title: News
     url: /news/
     children:

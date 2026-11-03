@@ -1,164 +1,164 @@
-# Research keyword frequencies - extracted from PubMed publication titles and abstracts
-# Auto-updated monthly via GitHub Actions
-# Last updated: 2026-11-01
+# Research keyword frequencies - extracted from PubMed titles, abstracts and keywords
+# Auto-updated monthly via GitHub Actions (scripts/update_tagcloud.py)
+# Last updated: 2026-11-03
 
 - word: fetal
   weight: 95
-- word: university
-  weight: 79
-- word: department
-  weight: 77
-- word: doi
-  weight: 59
-- word: canada
-  weight: 45
-- word: obstetrics
-  weight: 42
-- word: research
-  weight: 38
-- word: information
-  weight: 34
-- word: frasch
-  weight: 32
-- word: gynecology
-  weight: 32
-- word: rate
-  weight: 31
-- word: author
-  weight: 31
-- word: montr
-  weight: 29
-- word: pmid
-  weight: 28
 - word: heart
-  weight: 28
-- word: health
-  weight: 25
-- word: usa
-  weight: 25
-- word: washington
-  weight: 25
-- word: medicine
-  weight: 25
-- word: seattle
-  weight: 24
-- word: development
-  weight: 23
+  weight: 31
+- word: fetus
+  weight: 30
 - word: brain
   weight: 23
-- word: time
-  weight: 23
-- word: human
-  weight: 22
-- word: fhr
-  weight: 22
-- word: universit
-  weight: 21
-- word: institute
-  weight: 21
-- word: model
-  weight: 21
-- word: centre
-  weight: 21
-- word: center
-  weight: 20
-- word: variability
-  weight: 20
-- word: monitoring
-  weight: 20
-- word: indexed
-  weight: 20
-- word: medline
-  weight: 20
 - word: sheep
-  weight: 20
-- word: data
-  weight: 20
-- word: maternal
-  weight: 20
-- word: clinical
+  weight: 21
+- word: variability
+  weight: 21
+- word: monitoring
   weight: 20
 - word: stress
   weight: 20
-- word: justine
-  weight: 20
-- word: pmcid
-  weight: 20
-- word: pmc
-  weight: 20
-- word: term
-  weight: 20
-- word: chu
+- word: maternal
   weight: 20
 - word: fhrv
   weight: 20
-- word: interest
+- word: animal
   weight: 20
-- word: fetuses
+- word: human
   weight: 20
-- word: montreal
-  weight: 20
-- word: ecg
-  weight: 20
-- word: inflammatory
-  weight: 20
-- word: early
-  weight: 20
-- word: analysis
-  weight: 20
-- word: hrv
-  weight: 20
-- word: germany
-  weight: 20
-- word: response
-  weight: 20
-- word: states
-  weight: 20
-- word: lps
+- word: signal
   weight: 20
 - word: acidemia
   weight: 20
-- word: ontario
+- word: development
   weight: 20
-- word: conflict
+- word: vagus
   weight: 20
-- word: munich
+- word: deceleration
   weight: 20
-- word: near
+- word: inflammatory
   weight: 20
 - word: inflammation
   weight: 20
-- word: london
+- word: labor
   weight: 20
-- word: activity
+- word: clinical
   weight: 20
-- word: faculty
-  weight: 20
-- word: fetus
-  weight: 20
-- word: complexity
-  weight: 20
-- word: ste
-  weight: 20
-- word: hospital
-  weight: 20
-- word: school
-  weight: 20
-- word: united
+- word: nerve
   weight: 20
 - word: pregnancy
   weight: 20
-- word: epub
+- word: complexity
   weight: 20
-- word: western
+- word: health
   weight: 20
 - word: ovine
   weight: 20
-- word: animal
+- word: microglia
   weight: 20
-- word: uco
+- word: near-term
   weight: 20
-- word: disability
+- word: detection
   weight: 20
-- word: signal
+- word: blood
+  weight: 20
+- word: umbilical
+  weight: 20
+- word: cord
+  weight: 20
+- word: occlusion
+  weight: 20
+- word: biomarker
+  weight: 20
+- word: chronic
+  weight: 20
+- word: cell
+  weight: 20
+- word: ucos
+  weight: 20
+- word: ecog
+  weight: 20
+- word: sampling
+  weight: 20
+- word: birth
+  weight: 20
+- word: pattern
+  weight: 20
+- word: hypoxic
+  weight: 20
+- word: cardiovascular
+  weight: 20
+- word: repetitive
+  weight: 20
+- word: arterial
+  weight: 20
+- word: rmssd
+  weight: 20
+- word: vagal
+  weight: 20
+- word: pregnant
+  weight: 20
+- word: autonomic
+  weight: 20
+- word: pathway
+  weight: 20
+- word: algorithm
+  weight: 20
+- word: sleep
+  weight: 20
+- word: communication
+  weight: 20
+- word: instrumented
+  weight: 20
+- word: prenatal
+  weight: 20
+- word: risk
+  weight: 20
+- word: cohort
+  weight: 20
+- word: neuroinflammation
+  weight: 20
+- word: nachr
+  weight: 20
+- word: physiological
+  weight: 20
+- word: electrocardiogram
+  weight: 20
+- word: gestation
+  weight: 20
+- word: flow
+  weight: 20
+- word: signaling
+  weight: 20
+- word: treatment
+  weight: 20
+- word: injury
+  weight: 20
+- word: intervention
+  weight: 20
+- word: microglial
+  weight: 20
+- word: systemic
+  weight: 20
+- word: phenotype
+  weight: 20
+- word: hypoxia
+  weight: 20
+- word: fecg
+  weight: 20
+- word: recording
+  weight: 20
+- word: learning
+  weight: 20
+- word: stimulation
+  weight: 20
+- word: depression
+  weight: 20
+- word: women
+  weight: 20
+- word: placental
+  weight: 20
+- word: nervous
+  weight: 20
+- word: cholinergic
   weight: 20

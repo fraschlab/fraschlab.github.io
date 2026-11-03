@@ -8,9 +8,20 @@
         <a href="{{ item.url | relative_url }}" class="nav-link {% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
         {% if item.children %}
         <button class="nav-expand" aria-label="Expand {{ item.title }} submenu">&#9662;</button>
-        <ul class="nav-dropdown">
+        <ul class="nav-dropdown{% if item.children[0].group %} grouped{% endif %}">
           {% for child in item.children %}
+          {% if child.group %}
+          <li class="nav-group">
+            <span class="nav-group-title">{{ child.group }}</span>
+            <ul>
+              {% for sub in child.items %}
+              <li><a href="{{ sub.url | relative_url }}">{{ sub.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% else %}
           <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+          {% endif %}
           {% endfor %}
         </ul>
         {% endif %}
